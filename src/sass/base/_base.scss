@@ -1,0 +1,12 @@
+@import '../abstratcs/variables';
+
+body{
+    background-color: $Very-Dark-Blue;
+    font-family: $font;
+    color: $White;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}

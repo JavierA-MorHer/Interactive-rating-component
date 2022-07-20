@@ -1,0 +1,130 @@
+body {
+  background-color: hsl(216deg, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.rating-container {
+  background-color: #1f2630;
+  width: 330px;
+  height: auto;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.star-icon {
+  background-color: #2b2e37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.description {
+  font-weight: 400;
+  color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.item {
+  font-size: 15px;
+  list-style: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: #2b2e37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: hsl(217deg, 12%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+}
+.item:hover {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+  transition: 0.5s ease;
+}
+
+.btn {
+  background-color: hsl(25deg, 97%, 53%);
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  font-size: 14px;
+  color: hsl(0deg, 0%, 100%);
+  height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.btn:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  transition: 0.3s ease-in-out;
+}
+
+.selected {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.thanks-image {
+  align-items: center;
+}
+
+.results-container {
+  background-color: #1f2630;
+  width: 330px;
+  height: auto;
+  padding: 25px;
+  border-radius: 20px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.selection {
+  color: hsl(25deg, 97%, 53%);
+  text-align: center;
+  background-color: #2b2e37;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 200px;
+  border-radius: 30px;
+  margin-top: 20px;
+}/*# sourceMappingURL=App.css.map */

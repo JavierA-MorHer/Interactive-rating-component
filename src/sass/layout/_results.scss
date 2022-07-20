@@ -1,0 +1,26 @@
+@import '../abstratcs/variables';
+@import '../mixins/backgroundContainer';
+
+.thanks-image{
+    align-items: center;
+}
+
+.results-container{
+    @include backgroundContainer;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.selection{
+    color: $Orange;
+    text-align: center;
+    background-color: $Mid-Blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+}

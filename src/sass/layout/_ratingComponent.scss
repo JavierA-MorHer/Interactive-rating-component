@@ -1,0 +1,96 @@
+@import '../abstratcs/variables';
+@import '../mixins/backgroundContainer';
+
+.rating-container{
+    @include backgroundContainer;
+    display: flex;
+    flex-direction: column;
+}
+
+.star-icon{
+    background-color: $Mid-Blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.title{
+    font-weight: $bold;
+}
+
+.description{
+    font-weight: $regular;
+    color: $Light-Grey;
+    font-size: $paragraph;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.item{
+    font-size: $paragraph;
+    list-style: none;
+    border-radius:50%;
+    width: 45px;
+    height: 45px;
+    background-color: $Mid-Blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: $Light-Grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+
+    &:hover{
+        background-color: $Light-Grey;
+        color: $White;
+        transition: .5s ease;
+    }
+}
+
+
+
+
+.btn{
+    background-color: $Orange;
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    font-size: 14px;
+    color: $White;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: $regular;
+
+    &:hover{
+        background-color: $White;
+        color: $Orange;
+        transition: .3s ease-in-out;
+    }
+}
+
+.selected{
+    background-color: $Orange;
+    color: $White;
+}
