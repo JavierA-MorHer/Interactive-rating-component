@@ -11,45 +11,47 @@
     <title>Rating</title>
 </head>
 <body>
-    <div class="rating-container">
-        <div class="star-icon"><img src="./src/img/icon-star.svg" alt="Icon Star"></div>
-
+    <div class="general">
+        <div class="rating-container">
+            <div class="star-icon"><img src="./src/img/icon-star.svg" alt="Icon Star"></div>
+    
+            <div class="text">
+                <h2 class="title">How did we do?</h2>
+                <span class="description">
+                      Please let us know how we did with your support request. 
+                      All feedback is appreciated to help us improve our offering!
+                </span>
+            </div>
+    
+            <div class="list">
+                    <div class="rating">
+                        <button id="1" class="item">1</button>
+                        <button id="2" class="item">2</button>
+                        <button id="3" class="item">3</button>
+                        <button id="4" class="item">4</button>
+                        <button id="5" class="item">5</button>
+                    </div>
+                    <button class="btn">Submit</button> 
+            </div>
+    
+        </div>
+    
+        
+    <!-- Results -->
+    <div class="results-container">
+        <div class="thanks-image"><img src="./src/img/illustration-thank-you.svg" alt="Thank You"></div>
+    
+        <div class="selection"><span>You selected <span id="rating-selected"></span> out of 5</span> </div>
+    
         <div class="text">
-            <h2 class="title">How did we do?</h2>
+            <h2 class="title">Thank you!</h2>
             <span class="description">
-                  Please let us know how we did with your support request. 
-                  All feedback is appreciated to help us improve our offering!
+                 We appreciate you taking the time to give a rating.
+                 If you ever need more support, don't hesitate to get in touch!
             </span>
         </div>
-
-        <div class="list">
-                <ul class="rating">
-                    <button name="1" id="1" class="item">1</button>
-                    <button name="2" id="2" class="item">2</button>
-                    <button name="3" id="3" class="item">3</button>
-                    <button name="4" id="4" class="item">4</button>
-                    <button name="5" id="5" class="item">5</button>
-                </ul>
-                <button class="btn">Submit</button> 
-        </div>
-
     </div>
-
-    
-<!-- Results -->
-<div class="results-container">
-    <div class="thanks-image"><img src="./src/img/illustration-thank-you.svg" alt="Thank You"></div>
-
-    <div class="selection"><span>You selected <span id="rating-selected"></span> out of 5</span> </div>
-
-    <div class="text">
-        <h2 class="title">Thank you!</h2>
-        <span class="description">
-             We appreciate you taking the time to give a rating.
-             If you ever need more support, don't hesitate to get in touch!
-        </span>
     </div>
-</div>
 </body>
 <script src="./src/js/scripts.js"></script>
 </html>

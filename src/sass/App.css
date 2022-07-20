@@ -71,6 +71,7 @@ body {
   align-items: center;
   justify-content: center;
   border-style: none;
+  margin-top: 20px;
 }
 .item:hover {
   background-color: hsl(217deg, 12%, 63%);
@@ -89,6 +90,7 @@ body {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 400;
+  margin-top: 30px;
 }
 .btn:hover {
   background-color: hsl(0deg, 0%, 100%);
